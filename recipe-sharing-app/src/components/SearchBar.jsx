@@ -1,5 +1,5 @@
 import React from "react";
-import { useRecipeStore } from "./recipeStore";
+import useRecipeStore from "./recipeStore";
 
 const SearchBar = () => {
   const setSearchTerm = useRecipeStore((state) => state.setSearchTerm);
@@ -12,4 +12,5 @@ const SearchBar = () => {
     />
   );
 };
-export default SearchBar
+
+export default SearchBar;

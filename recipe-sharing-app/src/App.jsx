@@ -1,19 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import AddRecipeForm from './components/AddRecipeForm'
-import RecipeList from './components/RecipeList'
-import SearchBar from './components/SearchBar'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AddRecipeForm from "./components/AddRecipeForm";
+import RecipeList from "./components/RecipeList";
+import RecipeDetails from "./components/RecipeDetails";
+import SearchBar from "./components/SearchBar";
+import RecommendationsList from "./components/RecommendationsList"; // 🆕 Import
+import useRecipeStore from "./components/recipeStore"; // 🆕 Access Zustand store
+import "./App.css";
 
-function App() {
+const App = () => {
+  const recommendations = useRecipeStore((state) => state.recommendations); // 🆕
+
   return (
-    <>
-    <SearchBar/>
-     <RecipeList/>
-     <AddRecipeForm/>
-    </>
-  )
-}
+    <Router>
+      <div className="container">
+        <h1>Recipe Sharing App</h1>
+        <AddRecipeForm />
+        <SearchBar />
 
-export default App
+        {/* 🆕 Show Recommendations if any */}
+        {recommendations.length > 0 && (
+          <div style={{ marginTop: "30px" }}>
+            <h2>Recommended for You</h2>
+            <RecommendationsList />
+          </div>
+        )}
+
+        <Routes>
+          <Route path="/" element={<RecipeList />} />
+          <Route path="/recipe/:id" element={<RecipeDetails />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
+
+export default App;
