@@ -19,7 +19,7 @@ function HomePage() {
       </h1>
       
       {/* 3. Use a responsive grid to display the recipe cards */}
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {recipes.map((recipe) => (
           // Card for each recipe, with responsive padding, shadow, and hover effect
           <div
