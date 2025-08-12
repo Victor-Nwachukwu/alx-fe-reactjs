@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Spaghetti Carbonara",
+    "summary": "A simple and authentic Italian pasta dish made with eggs, hard cheese, cured pork, and black pepper. Ready in under 30 minutes!",
+    "image": "https://placehold.co/600x400/98c1d9/000000?text=Spaghetti+Carbonara"
+  },
+  {
+    "id": 2,
+    "title": "Vegetable Stir-Fry",
+    "summary": "A quick and healthy stir-fry packed with fresh vegetables. Customize with your favorite veggies and protein for a perfect weeknight meal.",
+    "image": "https://placehold.co/600x400/e0fbfc/000000?text=Vegetable+Stir-Fry"
+  },
+
+  {
+    "id": 3,
+    "title": "Chocolate Chip Cookies",
+    "summary": "A timeless classic! These cookies are chewy in the center with slightly crispy edges, and loaded with chocolate chips.",
+    "image": "https://placehold.co/600x400/3d5a80/ffffff?text=Chocolate+Chip+Cookies"
+  }
+]
