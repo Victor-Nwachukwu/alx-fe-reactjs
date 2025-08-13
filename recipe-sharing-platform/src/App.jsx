@@ -2,6 +2,7 @@ import React from 'react';
 import HomePage from './components/HomePage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RecipeDetail from './components/RecipeDetail';
+import AddRecipeForm from './components/AddRecipeForm';
 import { createRoot } from 'react-dom/client';
 
 
@@ -19,7 +20,12 @@ function App() {
           <Route path="/recipes/:id" element={<RecipeDetail />} />
         </Routes>
       </div>
+
+    <div className="bg-slate-50 dark:bg-gray-900 min-h-screen flex items-center justify-center p-4">
+      <AddRecipeForm />
+    </div>
     </Router>
+
   );
 }
 
