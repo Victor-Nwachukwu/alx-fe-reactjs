@@ -1,21 +1,52 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "Classic Spaghetti Carbonara",
-    "summary": "A simple and authentic Italian pasta dish made with eggs, hard cheese, cured pork, and black pepper. Ready in under 30 minutes!",
-    "image": "https://placehold.co/600x400/98c1d9/000000?text=Spaghetti+Carbonara"
+    "summary": "An authentic Italian pasta dish with eggs, cheese, cured pork, and black pepper.",
+    "image": "https://placehold.co/600x400/98c1d9/000000?text=Spaghetti+Carbonara",
+    "ingredients": [
+      "200g spaghetti",
+      "100g guanciale or pancetta",
+      "2 large eggs",
+      "50g Pecorino Romano cheese",
+      "Freshly ground black pepper"
+    ],
+    "instructions": "1. Cook the spaghetti in salted water.\n2. In a separate pan, fry the guanciale until crispy.\n3. In a bowl, whisk the eggs, cheese, and pepper.\n4. Drain the spaghetti, reserving pasta water. Add to the pan with the guanciale.\n5. Remove from heat and stir in the egg mixture to create a creamy sauce.\n6. Serve immediately with extra cheese and pepper."
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Vegetable Stir-Fry",
-    "summary": "A quick and healthy stir-fry packed with fresh vegetables. Customize with your favorite veggies and protein for a perfect weeknight meal.",
-    "image": "https://placehold.co/600x400/e0fbfc/000000?text=Vegetable+Stir-Fry"
+    "summary": "A quick and healthy stir-fry packed with fresh vegetables for a perfect weeknight meal.",
+    "image": "https://placehold.co/600x400/e0fbfc/000000?text=Vegetable+Stir-Fry",
+    "ingredients": [
+      "1 tbsp sesame oil",
+      "1 clove garlic, minced",
+      "1 onion, sliced",
+      "1 bell pepper, sliced",
+      "1 cup broccoli florets",
+      "1 cup snap peas",
+      "2 tbsp soy sauce",
+      "1 tbsp cornstarch",
+      "1/2 cup vegetable broth"
+    ],
+    "instructions": "1. In a small bowl, whisk together the soy sauce, cornstarch, and vegetable broth.\n2. Heat oil in a wok. Add garlic and onion and stir-fry until fragrant.\n3. Add the vegetables and cook for 3-5 minutes until tender-crisp.\n4. Pour in the sauce mixture and cook until thickened.\n5. Serve immediately over rice or noodles."
   },
-
   {
-    "id": 3,
+    "id": "3",
     "title": "Chocolate Chip Cookies",
-    "summary": "A timeless classic! These cookies are chewy in the center with slightly crispy edges, and loaded with chocolate chips.",
-    "image": "https://placehold.co/600x400/3d5a80/ffffff?text=Chocolate+Chip+Cookies"
+    "summary": "A timeless classic. These cookies are chewy in the center with crispy edges and loaded with chocolate chips.",
+    "image": "https://placehold.co/600x400/3d5a80/ffffff?text=Chocolate+Chip+Cookies",
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "2 cups chocolate chips"
+    ],
+    "instructions": "1. Preheat oven to 375°F and line a baking sheet.\n2. In a large bowl, beat butter, granulated sugar, and brown sugar until light and fluffy.\n3. Beat in the eggs one at a time, then stir in the vanilla extract.\n4. In a separate bowl, whisk together the flour, baking soda, and salt. Add the dry mixture to the wet ingredients.\n5. Fold in the chocolate chips. Drop rounded tablespoons of dough onto the baking sheet.\n6. Bake for 9-11 minutes, or until the edges are golden brown."
   }
 ]
